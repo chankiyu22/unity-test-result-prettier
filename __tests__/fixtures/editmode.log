@@ -1,0 +1,1654 @@
+Initiating legacy licensing moduleUnable to load libnotify
+
+LICENSE SYSTEM [2020823 14:13:17] Next license update check is after 2020-08-22T14:15:28
+
+[Package Manager] Server::Start -- Port 54028 was selected
+
+ COMMAND LINE ARGUMENTS:
+/opt/Unity/Editor/Unity
+-batchmode
+-logFile
+/github/workspace/artifacts/editmode.log
+-projectPath
+/github/workspace/.
+-runTests
+-testPlatform
+editmode
+-testResults
+/github/workspace/artifacts/editmode-results.xml
+Successfully changed project path to: /github/workspace/.
+/github/workspace
+Using Asset Import Pipeline V1.
+Initiating legacy licensing moduleBuild target: OSXUniversal found and added!
+Build target: WindowsStoreApps found and added!
+Build target: Win64 found and added!
+Build target: Win found and added!
+Build target: LinuxUniversal found and added!
+Build target: Linux64 found and added!
+Build target: Linux found and added!
+Build target: iOS found and added!
+Build target: tvOS found and added!
+Build target: PS4 found and added!
+Build target: XboxOne found and added!
+Build target: Android found and added!
+Build target: WebGL found and added!
+Build target: Switch found and added!
+Build target: Lumin found and added!
+Build target: PSM found and added!
+Build target: PSP2 found and added!
+Build target: WiiU found and added!
+Build target: Web found and added!
+Build target: WebStreamed found and added!
+Build target: OSXIntel found and added!
+Build target: OSXIntel64 found and added!
+Build target: BlackBerry found and added!
+Build target: PS3 found and added!
+Build target: N3DS found and added!
+Build target: WP8 found and added!
+Build target: SamsungTV found and added!
+Build target: Tizen found and added!
+Loading GUID <-> Path mappings...0.000058 seconds
+Loading Asset Database...0.092348 seconds
+FMOD failed to initialize the output device.: "Error initializing output device. " (60)
+ 
+(Filename: /home/builduser/buildslave/unity/build/Modules/Audio/Public/AudioManager.cpp Line: 1398)
+
+Forced to initialize FMOD to to the device driver's system output rate 48000, this may impact performance and/or give inconsistent experiences compared to selected sample rate 48000
+ 
+(Filename: /home/builduser/buildslave/unity/build/Modules/Audio/Public/AudioManager.cpp Line: 1343)
+
+FMOD failed to initialize the output device.: "Error initializing output device. " (60)
+ 
+(Filename: /home/builduser/buildslave/unity/build/Modules/Audio/Public/AudioManager.cpp Line: 1398)
+
+FMOD initialized on nosound output
+AssetDatabase consistency checks...0.020984 seconds
+Refreshing native plugins compatible for Editor in 32.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+DisplayProgressbar: Unity Package Manager
+[Package Manager] Resetting packages to defaults dependencies was done successfully.
+[Package Manager] Done resolving packages in 1.43s seconds
+[Package Manager] Registering 36 packages:
+[Package Manager]  * Package :  com.unity.ads@2.3.1
+    (location: /github/workspace/Library/PackageCache/com.unity.ads@2.3.1)
+[Package Manager]  * Package :  com.unity.analytics@3.2.2
+    (location: /github/workspace/Library/PackageCache/com.unity.analytics@3.2.2)
+[Package Manager]  * Package :  com.unity.collab-proxy@1.2.15
+    (location: /github/workspace/Library/PackageCache/com.unity.collab-proxy@1.2.15)
+[Package Manager]  * Package :  com.unity.package-manager-ui@2.0.3
+    (location: /github/workspace/Library/PackageCache/com.unity.package-manager-ui@2.0.3)
+[Package Manager]  * Package :  com.unity.purchasing@2.0.3
+    (location: /github/workspace/Library/PackageCache/com.unity.purchasing@2.0.3)
+[Package Manager]  * Package :  com.unity.textmeshpro@1.3.0
+    (location: /github/workspace/Library/PackageCache/com.unity.textmeshpro@1.3.0)
+[Package Manager]  * Package :  com.unity.modules.ai@1.0.0
+    (location: /opt/Unity/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.ai)
+[Package Manager]  * Package :  com.unity.modules.animation@1.0.0
+    (location: /opt/Unity/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.animation)
+[Package Manager]  * Package :  com.unity.modules.assetbundle@1.0.0
+    (location: /opt/Unity/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.assetbundle)
+[Package Manager]  * Package :  com.unity.modules.audio@1.0.0
+    (location: /opt/Unity/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.audio)
+[Package Manager]  * Package :  com.unity.modules.cloth@1.0.0
+    (location: /opt/Unity/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.cloth)
+[Package Manager]  * Package :  com.unity.modules.director@1.0.0
+    (location: /opt/Unity/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.director)
+[Package Manager]  * Package :  com.unity.modules.imageconversion@1.0.0
+    (location: /opt/Unity/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.imageconversion)
+[Package Manager]  * Package :  com.unity.modules.imgui@1.0.0
+    (location: /opt/Unity/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.imgui)
+[Package Manager]  * Package :  com.unity.modules.jsonserialize@1.0.0
+    (location: /opt/Unity/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.jsonserialize)
+[Package Manager]  * Package :  com.unity.modules.particlesystem@1.0.0
+    (location: /opt/Unity/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.particlesystem)
+[Package Manager]  * Package :  com.unity.modules.physics@1.0.0
+    (location: /opt/Unity/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.physics)
+[Package Manager]  * Package :  com.unity.modules.physics2d@1.0.0
+    (location: /opt/Unity/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.physics2d)
+[Package Manager]  * Package :  com.unity.modules.screencapture@1.0.0
+    (location: /opt/Unity/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.screencapture)
+[Package Manager]  * Package :  com.unity.modules.terrain@1.0.0
+    (location: /opt/Unity/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.terrain)
+[Package Manager]  * Package :  com.unity.modules.terrainphysics@1.0.0
+    (location: /opt/Unity/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.terrainphysics)
+[Package Manager]  * Package :  com.unity.modules.tilemap@1.0.0
+    (location: /opt/Unity/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.tilemap)
+[Package Manager]  * Package :  com.unity.modules.ui@1.0.0
+    (location: /opt/Unity/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.ui)
+[Package Manager]  * Package :  com.unity.modules.uielements@1.0.0
+    (location: /opt/Unity/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.uielements)
+[Package Manager]  * Package :  com.unity.modules.umbra@1.0.0
+    (location: /opt/Unity/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.umbra)
+[Package Manager]  * Package :  com.unity.modules.unityanalytics@1.0.0
+    (location: /opt/Unity/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.unityanalytics)
+[Package Manager]  * Package :  com.unity.modules.unitywebrequest@1.0.0
+    (location: /opt/Unity/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequest)
+[Package Manager]  * Package :  com.unity.modules.unitywebrequestassetbundle@1.0.0
+    (location: /opt/Unity/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestassetbundle)
+[Package Manager]  * Package :  com.unity.modules.unitywebrequestaudio@1.0.0
+    (location: /opt/Unity/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestaudio)
+[Package Manager]  * Package :  com.unity.modules.unitywebrequesttexture@1.0.0
+    (location: /opt/Unity/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequesttexture)
+[Package Manager]  * Package :  com.unity.modules.unitywebrequestwww@1.0.0
+    (location: /opt/Unity/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestwww)
+[Package Manager]  * Package :  com.unity.modules.vehicles@1.0.0
+    (location: /opt/Unity/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.vehicles)
+[Package Manager]  * Package :  com.unity.modules.video@1.0.0
+    (location: /opt/Unity/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.video)
+[Package Manager]  * Package :  com.unity.modules.vr@1.0.0
+    (location: /opt/Unity/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.vr)
+[Package Manager]  * Package :  com.unity.modules.wind@1.0.0
+    (location: /opt/Unity/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.wind)
+[Package Manager]  * Package :  com.unity.modules.xr@1.0.0
+    (location: /opt/Unity/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.xr)
+[Package Manager] Done registering packages in 0.00s seconds
+Initialize engine version: 2018.3.0f2 (6e9a27477296)
+GLX Extensions: GLX_ARB_create_context GLX_ARB_create_context_profile GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_import_context GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_MESA_copy_sub_buffer GLX_MESA_multithread_makecurrent GLX_MESA_query_renderer GLX_OML_swap_method GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read 
+Renderer: llvmpipe (LLVM 6.0, 256 bits)
+Vendor:   VMware, Inc.
+Version:  3.3 (Core Profile) Mesa 18.0.5
+GLES:     0
+ GL_AMD_conservative_depth GL_AMD_draw_buffers_blend GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_compressed_texture_pixel_storage GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB
+_fragment_shader GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_robustness GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_bit_encoding GL_ARB_shader_objects GL_ARB_shader_stencil_export GL_ARB_shader_subroutine GL_ARB_shader_texture_lod GL_ARB_shading_language_420pack GL_ARB_shading_language_packing GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_texture_buffer_object GL_ARB_texture_buffer_
+object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_draw_bu
+ffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_sRGB GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_shader_integer_mix GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_decode GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_IBM_multimode_draw_arrays GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_MESA_ycbcr_texture GL_NV_conditional_render GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_OES_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 3.3 graphics device ; Context level  <OpenGL 3.3> ; Context handle -811218752
+[EnlightenBakeManager] m_Clear = false;
+WARNING: Shader Unsupported: 'Hidden/BlitToDepth' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/BlitToDepth' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/BlitToDepth_MSAA' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/BlitToDepth_MSAA' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/VR/BlitTexArraySliceToDepth_MSAA' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VR/BlitTexArraySliceToDepth_MSAA' - Setting to default shader.
+WARNING: Shader Unsupported: 'AR/TangoARRender' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'AR/TangoARRender' - Setting to default shader.
+Initialize mono
+Mono path[0] = '/opt/Unity/Editor/Data/Managed'
+Mono path[1] = '/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/opt/Unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=0.0.0.0:56054
+Begin MonoManager ReloadAssembly
+Initializing Unity.PackageManager (PackageManager) v2018.3.0 for Unity v2018.3.0f2
+Registering precompiled unity dll's ...
+Register platform support module: /opt/Unity/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /opt/Unity/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: /opt/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: /opt/Unity/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.004551 seconds.
+Registering platform support modules:
+Registered platform support modules in: 0.1262817s.
+Native extension for WebGL target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 1 native plugins for Editor in 9.93 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.496 seconds
+Registering precompiled user dll's ...
+Registered in 0.022526 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Assembly 'Library/ScriptAssemblies/Chankiyu22.DialogueSystem.Dialogues.Editor.dll' will not be loaded due to errors:
+Unable to resolve reference 'DialogueSystem'. Is the assembly missing or incompatible with the current platform?
+ 
+(Filename: /home/builduser/buildslave/unity/build/Runtime/Mono/MonoManager.cpp Line: 1101)
+
+Assembly 'Library/ScriptAssemblies/Chankiyu22.DialogueSystem.Dialogues.Variables.Editor.dll' will not be loaded due to errors:
+Unable to resolve reference 'DialogueSystem'. Is the assembly missing or incompatible with the current platform?
+ 
+(Filename: /home/builduser/buildslave/unity/build/Runtime/Mono/MonoManager.cpp Line: 1101)
+
+Assembly 'Library/ScriptAssemblies/Chankiyu22.DialogueSystem.Characters.Editor.dll' will not be loaded due to errors:
+Unable to resolve reference 'DialogueSystem'. Is the assembly missing or incompatible with the current platform?
+ 
+(Filename: /home/builduser/buildslave/unity/build/Runtime/Mono/MonoManager.cpp Line: 1101)
+
+Assembly 'Library/ScriptAssemblies/Chankiyu22.DialogueSystem.Plots.Editor.dll' will not be loaded due to errors:
+Unable to resolve reference 'DialogueSystem'. Is the assembly missing or incompatible with the current platform?
+ 
+(Filename: /home/builduser/buildslave/unity/build/Runtime/Mono/MonoManager.cpp Line: 1101)
+
+Assembly 'Library/ScriptAssemblies/Chankiyu22.DialogueSystem.Tests.dll' will not be loaded due to errors:
+Unable to resolve reference 'DialogueSystem'. Is the assembly missing or incompatible with the current platform?
+ 
+(Filename: /home/builduser/buildslave/unity/build/Runtime/Mono/MonoManager.cpp Line: 1101)
+
+Initializing Unity.PackageManager (PackageManager) v2018.3.0 for Unity v2018.3.0f2
+Registering platform support modules:
+Registered platform support modules in: 0.0673578s.
+Native extension for WebGL target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.315 seconds
+Platform modules already initialized, skipping
+Validating Project structure ... 0.002135 seconds.
+Refresh: detecting if any assets need to be imported or removed ...
+
+Hashing assets (86 files)... 0.039 seconds
+  file read: 0.034 seconds (0.180 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.034 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+----- Compute hash(es) for 86 asset(s).
+----- Asset named Assets/Scripts/Avatar/AvatarTextureController.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Avatar/Common.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Avatar/TextureSource/AvatarImageTextureSource.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Avatar/TextureSource/AvatarRawImageTextureSource.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Avatar/TextureSource/AvatarTextureRenderController.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Avatar/TextureSource/AvatarTextureSource.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Character/Character.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Character/CharacterDataKey.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Character/CharacterDataKeyBoolean.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Character/CharacterDataKeyFloat.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Character/CharacterDataKeyInteger.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Character/CharacterDataKeyString.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Character/Common.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Character/Editor/CharacterDataKeyEditor.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Character/Editor/CharacterDataKeyEventPropertyDrawer.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Character/Editor/CharacterDataPropertyDrawer.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Character/Editor/CharacterEditor.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Character/Editor/Utils.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Common.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Dialogue/Common.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Dialogue/DialogueNode.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Dialogue/DialogueNodeNext.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Dialogue/DialogueOption.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Dialogue/DialogueOptionText.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Dialogue/DialogueOptionsController.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Dialogue/DialogueText.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Dialogue/DialogueTextController.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Dialogue/DialogueTextDispatcher.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Dialogue/Editor/DialogueControllerEditor.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Dialogue/Editor/DialogueEditor.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Dialogue/Editor/DialogueEditorInEditorWindow.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Dialogue/Editor/DialogueEditorInInspector.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Dialogue/Editor/DialogueEditorWindow.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Dialogue/Editor/DialogueNodeNextListPropertyDrawer.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Dialogue/Editor/DialoguePropertyDrawer.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Dialogue/Editor/DialogueVariableReorderableList.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Dialogue/Editor/Utils.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Dialogue/Variable/BoolVariable.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Dialogue/Variable/Condition.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Dialogue/Variable/Editor/ConditionPropertyDrawer.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Dialogue/Variable/Editor/ConditionReorderableListManager.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Dialogue/Variable/Editor/VariableAssignmentListPropertyDrawerManager.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Dialogue/Variable/Editor/VariableAssignmentPropertyDrawer.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Dialogue/Variable/Editor/VariableAssignmentReorderableList.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Dialogue/Variable/Editor/VariableAssignmentsStaticControllerEditor.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Dialogue/Variable/FloatVariable.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Dialogue/Variable/IntVariable.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Dialogue/Variable/StringVariable.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Dialogue/Variable/Variable.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Dialogue/Variable/VariableAssignment.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Dialogue/Variable/VariableAssignmentsController/VariableAssignmentsController.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Dialogue/Variable/VariableAssignmentsController/VariableAssignmentsStaticController.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Dialogue/Variable/VariableValue.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Plot/Common.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Plot/Editor/PlotAdditionalDataDispatcherEditor.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Plot/Editor/PlotAdditionalDataKeyUnityEventPropertyDrawer.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Plot/Editor/PlotAdditionalDataPropertyDrawer.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Plot/Editor/PlotAdditionalDataReorderableListManager.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Plot/Editor/PlotEditor.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Plot/Editor/PlotEditorInEditorWindow.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Plot/Editor/PlotEditorInInspector.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Plot/Editor/PlotEditorWindow.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Plot/Editor/PlotItemPropertyDrawer.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Plot/Editor/PlotPropertyDrawer.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Plot/Editor/Utils.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Plot/Plot.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Plot/PlotAdditionalData.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Plot/PlotAdditionalDataDispatcher.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Plot/PlotAdditionalDataKey.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Plot/PlotAdditionalDataKeyBoolean.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Plot/PlotAdditionalDataKeyFloat.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Plot/PlotAdditionalDataKeyInteger.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Plot/PlotAdditionalDataKeyString.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Plot/PlotAdditionalDataKeyVoid.cs is skipped as no actual change.
+----- Asset named Assets/Scripts/Plot/PlotController.cs is skipped as no actual change.
+
+*** assets/scripts/tests/testdialogue.cs replaces assets/scripts/tests/testsuite.cs for guid 21259450d6271034ca45539f4e9648c1 
+Refresh: trashing asset 2c3a6b75e6a78e94d878833e45462bf0
+Refresh: trashing asset 902b2efd7d797df4c82f8c1933a67b3b
+
+Hashing assets (7 files)... 0.002 seconds
+  file read: 0.002 seconds (0.051 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.002 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+Updating Assets/Scripts - GUID: 1c4f7709f6ad53145b8e75f4c4fe0ab0...
+ done. [Time: 104.782000 ms] 
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.8 MB.
+System memory in use after: 18.2 MB.
+
+Unloading 206 unused Assets to reduce memory usage. Loaded Objects now: 934.
+Total: 26.529000 ms (FindLiveObjects: 0.453000 ms CreateObjectMapping: 0.072000 ms MarkObjects: 4.290000 ms  DeleteObjects: 21.713000 ms)
+
+Updating Assets/Scripts/Tests - GUID: 3b51b6a8e16600b4d87192015cdb4578...
+ done. [Time: 2.810000 ms] 
+Updating Assets/Scripts/Character - GUID: 68c05c9433a95a4429f5499a1353cba7...
+ done. [Time: 2.331000 ms] 
+Updating Assets/Scripts/Avatar - GUID: 74c4a07ab5a85f844844929a842524d6...
+ done. [Time: 6.267000 ms] 
+Updating Assets/Scripts/Plot - GUID: 75918aaa4c6e486488127245d2b20987...
+ done. [Time: 1.851000 ms] 
+Updating Assets/Scripts/Dialogue - GUID: ea09bf7e1363fce4992e4a38565169e6...
+ done. [Time: 1.705000 ms] 
+Updating Assets/Scripts/Dialogue/Variable - GUID: 05cb5f6ba8eb28e44924e4ddb12dfcbe...
+ done. [Time: 1.685000 ms] 
+Updating Assets/Scripts/Character/Editor - GUID: 0f59e8ec57881e24e8ea070543248283...
+ done. [Time: 2.150000 ms] 
+Updating Assets/Scripts/Avatar/TextureSource - GUID: 17ebf0889ac60f240ab0b8260a3396bc...
+ done. [Time: 1.858000 ms] 
+Updating Assets/Scripts/Dialogue/Editor - GUID: 39edf3916639e07408eece9688659271...
+ done. [Time: 1.736000 ms] 
+Updating Assets/Scripts/Plot/Editor - GUID: 5b9ee6faa17a3ec43842cbbaccd3069e...
+ done. [Time: 1.878000 ms] 
+Updating Assets/Scripts/Dialogue/Variable/Editor - GUID: 94dbec65d1264fb488ecb316815ff900...
+ done. [Time: 1.741000 ms] 
+Updating Assets/Scripts/Dialogue/Variable/VariableAssignmentsController - GUID: c06cb1b4eb422364086fb920995e7fe0...
+ done. [Time: 1.716000 ms] 
+Updating Assets/Scripts/Plot/Editor/Editor.asmdef - GUID: 2a64ca6fb098ebe4b9c47af2814437cc...
+ done. [Time: 1.777000 ms] 
+Updating Assets/Scripts/Character/Editor/Editor.asmdef - GUID: 2daf53fcfe8b8a748a9b7a97cb3b7e25...
+ done. [Time: 1.796000 ms] 
+Updating Assets/Scripts/DialogueSystem.asmdef - GUID: 3710b33d260ef314e9ddcd25ca1e682d...
+ done. [Time: 1.871000 ms] 
+Updating Assets/Scripts/Dialogue/Editor/Editor.asmdef - GUID: 5a0e80d2fb23de54da96e561c47728b8...
+ done. [Time: 1.654000 ms] 
+Updating Assets/Scripts/Dialogue/Variable/Editor/Editor.asmdef - GUID: cd500994505790740a71391fd18e86f4...
+ done. [Time: 1.845000 ms] 
+Updating Assets/Scripts/Tests/Tests.asmdef - GUID: dbfda29f735377543a4f61436cd9c9eb...
+ done. [Time: 2.111000 ms] 
+- Starting compile Library/ScriptAssemblies/Chankiyu22.DialogueSystem.dll
+- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+- Finished compile Library/ScriptAssemblies/Chankiyu22.DialogueSystem.dll
+Symbols will be read from Temp/Chankiyu22.DialogueSystem.pdb
+Script Module: Chankiyu22.DialogueSystem.dll
+Pass: 0 took 19 milliseconds
+Pass: 1 took 21 milliseconds
+- Starting compile Library/ScriptAssemblies/Chankiyu22.DialogueSystem.Tests.dll
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbols will be read from Temp/Unity.TextMeshPro.pdb
+Script Module: Unity.TextMeshPro.dll
+Pass: 0 took 65 milliseconds
+Pass: 1 took 14 milliseconds
+- Starting compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+
+-----Compiler Commandline Arguments:
+Filename: /opt/Unity/Editor/Data/MonoBleedingEdge/bin/mono
+Arguments: "/opt/Unity/Editor/Data/Tools/RoslynNet46/csc.exe" /noconfig @Temp/UnityTempFile-eb588df205abdfcc2a2060cef0110a46
+index: 62
+Responsefile: Temp/UnityTempFile-eb588df205abdfcc2a2060cef0110a46 Contents: 
+/target:library
+/nowarn:0169
+/out:"Temp/Chankiyu22.DialogueSystem.Tests.dll"
+/debug:portable
+/optimize-
+/nostdlib+
+/preferreduilang:en-US
+/langversion:latest
+/reference:"Library/ScriptAssemblies/Chankiyu22.DialogueSystem.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.BaselibModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpatialTrackingModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TimelineModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEditor.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/Unity.Locator.dll"
+/reference:"/opt/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+/reference:"/opt/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll"
+/reference:"/opt/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll"
+/reference:"/opt/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll"
+/reference:"/opt/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll"
+/reference:"/opt/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
+/reference:"/opt/Unity/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll"
+/reference:"/opt/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+/reference:"/opt/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll"
+/reference:"/opt/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll"
+/reference:"/opt/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll"
+/reference:"/opt/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll"
+/reference:"/opt/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll"
+/reference:"/opt/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
+/reference:"/opt/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll"
+/reference:"/opt/Unity/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll"
+/reference:"/opt/Unity/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll"
+/reference:"/opt/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
+/reference:"/opt/Unity/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll"
+/reference:"/github/workspace/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll"
+/reference:"/github/workspace/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.Editor.dll"
+/reference:"/github/workspace/Library/PackageCache/com.unity.ads@2.3.1/Editor/UnityEditor.Advertisements.dll"
+/reference:"/github/workspace/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll"
+/reference:"/github/workspace/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll"
+/reference:"/github/workspace/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll"
+/reference:"/github/workspace/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Runtime.Serialization.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.Linq.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.Vectors.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Net.Http.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Microsoft.CSharp.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Data.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/Microsoft.Win32.Primitives.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.AppContext.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Concurrent.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.NonGeneric.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Specialized.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Annotations.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.EventBasedAsync.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Primitives.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.TypeConverter.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Console.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Data.Common.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Contracts.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Debug.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.FileVersionInfo.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Process.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.StackTrace.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TextWriterTraceListener.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Tools.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TraceSource.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Drawing.Primitives.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Dynamic.Runtime.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Calendars.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Extensions.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Compression.ZipFile.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.DriveInfo.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Primitives.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Watcher.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.IsolatedStorage.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.MemoryMappedFiles.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Pipes.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.UnmanagedMemoryStream.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Expressions.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Parallel.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Queryable.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Http.Rtc.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NameResolution.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NetworkInformation.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Ping.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Primitives.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Requests.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Security.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Sockets.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebHeaderCollection.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.Client.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ObjectModel.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.ILGeneration.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.Lightweight.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Extensions.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Primitives.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Reader.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.ResourceManager.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Writer.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.CompilerServices.VisualC.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Extensions.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Handles.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Numerics.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Formatters.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Json.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Primitives.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Xml.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Claims.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Algorithms.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Csp.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Encoding.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Primitives.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.X509Certificates.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Principal.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.SecureString.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Duplex.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Http.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.NetTcp.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Primitives.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Security.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.Extensions.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.RegularExpressions.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Overlapped.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.Parallel.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Thread.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.ThreadPool.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Timer.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ValueTuple.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.ReaderWriter.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XDocument.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlDocument.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlSerializer.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.Lang.dll"
+/reference:"/opt/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll"
+/define:UNITY_5_3_OR_NEWER
+/define:UNITY_5_4_OR_NEWER
+/define:UNITY_5_5_OR_NEWER
+/define:UNITY_5_6_OR_NEWER
+/define:UNITY_2017_1_OR_NEWER
+/define:UNITY_2017_2_OR_NEWER
+/define:UNITY_2017_3_OR_NEWER
+/define:UNITY_2017_4_OR_NEWER
+/define:UNITY_2018_1_OR_NEWER
+/define:UNITY_2018_2_OR_NEWER
+/define:UNITY_2018_3_OR_NEWER
+/define:UNITY_2018_3_0
+/define:UNITY_2018_3
+/define:UNITY_2018
+/define:PLATFORM_ARCH_64
+/define:UNITY_64
+/define:UNITY_INCLUDE_TESTS
+/define:ENABLE_AUDIO
+/define:ENABLE_CACHING
+/define:ENABLE_CLOTH
+/define:ENABLE_DUCK_TYPING
+/define:ENABLE_MICROPHONE
+/define:ENABLE_MULTIPLE_DISPLAYS
+/define:ENABLE_PHYSICS
+/define:ENABLE_SPRITES
+/define:ENABLE_GRID
+/define:ENABLE_TILEMAP
+/define:ENABLE_TERRAIN
+/define:ENABLE_TEXTURE_STREAMING
+/define:ENABLE_DIRECTOR
+/define:ENABLE_UNET
+/define:ENABLE_LZMA
+/define:ENABLE_UNITYEVENTS
+/define:ENABLE_WEBCAM
+/define:ENABLE_WWW
+/define:ENABLE_CLOUD_SERVICES_COLLAB
+/define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+/define:ENABLE_CLOUD_SERVICES_ADS
+/define:ENABLE_CLOUD_HUB
+/define:ENABLE_CLOUD_PROJECT_ID
+/define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+/define:ENABLE_CLOUD_SERVICES_UNET
+/define:ENABLE_CLOUD_SERVICES_BUILD
+/define:ENABLE_CLOUD_LICENSE
+/define:ENABLE_EDITOR_HUB
+/define:ENABLE_EDITOR_HUB_LICENSE
+/define:ENABLE_WEBSOCKET_CLIENT
+/define:ENABLE_DIRECTOR_AUDIO
+/define:ENABLE_DIRECTOR_TEXTURE
+/define:ENABLE_TIMELINE
+/define:ENABLE_EDITOR_METRICS
+/define:ENABLE_EDITOR_METRICS_CACHING
+/define:ENABLE_MANAGED_JOBS
+/define:ENABLE_MANAGED_TRANSFORM_JOBS
+/define:ENABLE_MANAGED_ANIMATION_JOBS
+/define:INCLUDE_DYNAMIC_GI
+/define:INCLUDE_GI
+/define:ENABLE_MONO_BDWGC
+/define:PLATFORM_SUPPORTS_MONO
+/define:RENDER_SOFTWARE_CURSOR
+/define:INCLUDE_PUBNUB
+/define:ENABLE_VIDEO
+/define:ENABLE_CUSTOM_RENDER_TEXTURE
+/define:ENABLE_LOCALIZATION
+/define:PLATFORM_STANDALONE_LINUX
+/define:PLATFORM_STANDALONE
+/define:UNITY_STANDALONE_LINUX
+/define:UNITY_STANDALONE
+/define:UNITY_STANDALONE_LINUX_API
+/define:USE_DEFAULT_PLAYERPREFS
+/define:ENABLE_SUBSTANCE
+/define:ENABLE_RUNTIME_GI
+/define:ENABLE_MOVIES
+/define:ENABLE_NETWORK
+/define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+/define:ENABLE_UNITYWEBREQUEST
+/define:ENABLE_CLOUD_SERVICES
+/define:ENABLE_CLOUD_SERVICES_ANALYTICS
+/define:ENABLE_CLOUD_SERVICES_PURCHASING
+/define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+/define:ENABLE_CLUSTER_SYNC
+/define:ENABLE_CLUSTERINPUT
+/define:ENABLE_VR
+/define:ENABLE_SPATIALTRACKING
+/define:ENABLE_MODULAR_UNITYENGINE_ASSEMBLIES
+/define:ENABLE_WEBSOCKET_HOST
+/define:ENABLE_MONO
+/define:NET_4_6
+/define:ENABLE_PROFILER
+/define:DEBUG
+/define:TRACE
+/define:UNITY_ASSERTIONS
+/define:UNITY_EDITOR
+/define:UNITY_EDITOR_64
+/define:UNITY_EDITOR_LINUX
+/define:ENABLE_UNITY_COLLECTIONS_CHECKS
+/define:ENABLE_BURST_AOT
+/define:UNITY_TEAM_LICENSE
+/define:CSHARP_7_OR_LATER
+/define:CSHARP_7_3_OR_NEWER
+"Assets/Scripts/Tests/TestDialogue.cs"
+
+-----CompilerOutput:-stdout--exitcode: 1--compilationhadfailure: True--outfile: Temp/Chankiyu22.DialogueSystem.Tests.dll
+Microsoft (R) Visual C# Compiler version 2.9.1.65535 (9d34608e)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Assets/Scripts/Tests/TestDialogue.cs(51,9): error CS0103: The name 'Utils' does not exist in the current context
+Assets/Scripts/Tests/TestDialogue.cs(55,9): error CS0103: The name 'Utils' does not exist in the current context
+Assets/Scripts/Tests/TestDialogue.cs(58,9): error CS0103: The name 'Utils' does not exist in the current context
+Assets/Scripts/Tests/TestDialogue.cs(92,9): error CS0103: The name 'Utils' does not exist in the current context
+Assets/Scripts/Tests/TestDialogue.cs(126,9): error CS0103: The name 'Utils' does not exist in the current context
+Assets/Scripts/Tests/TestDialogue.cs(129,9): error CS0103: The name 'Utils' does not exist in the current context
+Assets/Scripts/Tests/TestDialogue.cs(132,9): error CS0103: The name 'Utils' does not exist in the current context
+Assets/Scripts/Tests/TestDialogue.cs(142,9): error CS0103: The name 'Utils' does not exist in the current context
+Assets/Scripts/Tests/TestDialogue.cs(233,9): error CS0103: The name 'Utils' does not exist in the current context
+-----CompilerOutput:-stderr----------
+-----EndCompilerOutput---------------
+- Finished compile Library/ScriptAssemblies/Chankiyu22.DialogueSystem.Tests.dll
+- Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+Symbols will be read from Temp/Unity.Analytics.DataPrivacy.pdb
+Script Module: Unity.Analytics.DataPrivacy.dll
+Pass: 0 took 17 milliseconds
+Pass: 1 took 0 milliseconds
+Assets/Scripts/Tests/TestDialogue.cs(51,9): error CS0103: The name 'Utils' does not exist in the current context
+ 
+(Filename: Assets/Scripts/Tests/TestDialogue.cs Line: 51)
+
+Assets/Scripts/Tests/TestDialogue.cs(55,9): error CS0103: The name 'Utils' does not exist in the current context
+ 
+(Filename: Assets/Scripts/Tests/TestDialogue.cs Line: 55)
+
+Assets/Scripts/Tests/TestDialogue.cs(58,9): error CS0103: The name 'Utils' does not exist in the current context
+ 
+(Filename: Assets/Scripts/Tests/TestDialogue.cs Line: 58)
+
+Assets/Scripts/Tests/TestDialogue.cs(92,9): error CS0103: The name 'Utils' does not exist in the current context
+ 
+(Filename: Assets/Scripts/Tests/TestDialogue.cs Line: 92)
+
+Assets/Scripts/Tests/TestDialogue.cs(126,9): error CS0103: The name 'Utils' does not exist in the current context
+ 
+(Filename: Assets/Scripts/Tests/TestDialogue.cs Line: 126)
+
+Assets/Scripts/Tests/TestDialogue.cs(129,9): error CS0103: The name 'Utils' does not exist in the current context
+ 
+(Filename: Assets/Scripts/Tests/TestDialogue.cs Line: 129)
+
+Assets/Scripts/Tests/TestDialogue.cs(132,9): error CS0103: The name 'Utils' does not exist in the current context
+ 
+(Filename: Assets/Scripts/Tests/TestDialogue.cs Line: 132)
+
+Assets/Scripts/Tests/TestDialogue.cs(142,9): error CS0103: The name 'Utils' does not exist in the current context
+ 
+(Filename: Assets/Scripts/Tests/TestDialogue.cs Line: 142)
+
+Assets/Scripts/Tests/TestDialogue.cs(233,9): error CS0103: The name 'Utils' does not exist in the current context
+ 
+(Filename: Assets/Scripts/Tests/TestDialogue.cs Line: 233)
+
+Script Compilation Pipeline Post Process Assets time: 8.120652s
+Assembly Updater Post Process Assets time: 0.000278s
+Updating Assets/Scripts/Tests/TestDialogue.cs - GUID: 21259450d6271034ca45539f4e9648c1...
+ done. [Time: 29.536000 ms] 
+Updating Assets/Scripts/Character/Editor/CharacterDataKeyEventReorderableList.cs - GUID: 260c28ab40c56814aa524ba2b1b7fe48...
+ done. [Time: 4.755000 ms] 
+Updating Assets/Scripts/Tests/TestStartDialogue.cs - GUID: 276589db0e57ccb4e9357be0b04a3b04...
+ done. [Time: 14.357000 ms] 
+Updating Assets/Scripts/Character/Editor/CharacterDataDispatcherEditor.cs - GUID: 2d2519348ba35034bafb8e421b00a536...
+ done. [Time: 3.274000 ms] 
+Updating Assets/Scripts/Dialogue/Dialogue.cs - GUID: 3458c7110c92cbe4d8b7d222c82545f3...
+ done. [Time: 8.751000 ms] 
+Updating Assets/Scripts/Character/Editor/DefaultCharacterDataKeyEventPropertyDrawer.cs - GUID: 42237c8ed42a56f4fa1029b8a0b7504f...
+ done. [Time: 11.369000 ms] 
+Updating Assets/Scripts/Tests/Utils.cs - GUID: 522182a48b79fc94c8620710b2d21008...
+ done. [Time: 5.175000 ms] 
+Updating Assets/Scripts/Character/Editor/DefaultCharacterDataKeyEventReorderableList.cs - GUID: 5d602eb7b8c20524cbb59b8cd374af7a...
+ done. [Time: 4.577000 ms] 
+Updating Assets/Scripts/Character/CharacterDataDispatcher.cs - GUID: 934318553eeb0e747b81a95c202bdc0c...
+ done. [Time: 17.044000 ms] 
+Updating Assets/Scripts/Tests/TestDialogueOption.cs - GUID: e5b8f01f8e5539546817bcea4de8123b...
+ done. [Time: 25.644000 ms] 
+Updating Assets/Scripts/Dialogue/CurrentDialogueController.cs - GUID: f6a93cecf38428d4da0bb3a186714678...
+ done. [Time: 3.772000 ms] 
+Updating Assets/Scripts/Dialogue/DialogueController.cs - GUID: f9a4e263b5d53464f99588c54a7f2fea...
+ done. [Time: 15.984000 ms] 
+- Starting compile Library/ScriptAssemblies/Chankiyu22.DialogueSystem.dll
+- Finished compile Library/ScriptAssemblies/Chankiyu22.DialogueSystem.dll
+Symbols will be read from Temp/Chankiyu22.DialogueSystem.pdb
+Script Module: Chankiyu22.DialogueSystem.dll
+Pass: 0 took 17 milliseconds
+Pass: 1 took 11 milliseconds
+- Starting compile Library/ScriptAssemblies/Chankiyu22.DialogueSystem.Tests.dll
+- Starting compile Library/ScriptAssemblies/Chankiyu22.DialogueSystem.Characters.Editor.dll
+- Finished compile Library/ScriptAssemblies/Chankiyu22.DialogueSystem.Tests.dll
+- Starting compile Library/ScriptAssemblies/Chankiyu22.DialogueSystem.Dialogues.Variables.Editor.dll
+- Finished compile Library/ScriptAssemblies/Chankiyu22.DialogueSystem.Characters.Editor.dll
+- Starting compile Library/ScriptAssemblies/Chankiyu22.DialogueSystem.Plots.Editor.dll
+- Finished compile Library/ScriptAssemblies/Chankiyu22.DialogueSystem.Dialogues.Variables.Editor.dll
+- Starting compile Library/ScriptAssemblies/Chankiyu22.DialogueSystem.Dialogues.Editor.dll
+- Finished compile Library/ScriptAssemblies/Chankiyu22.DialogueSystem.Plots.Editor.dll
+- Finished compile Library/ScriptAssemblies/Chankiyu22.DialogueSystem.Dialogues.Editor.dll
+Reloading assemblies after script compilation.
+Begin MonoManager ReloadAssembly
+Initializing Unity.PackageManager (PackageManager) v2018.3.0 for Unity v2018.3.0f2
+Registering platform support modules:
+Registered platform support modules in: 0.0638277s.
+Native extension for WebGL target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.349 seconds
+Platform modules already initialized, skipping
+Script Compilation Pipeline Post Process Assets time: 13.567672s
+Assembly Updater Post Process Assets time: 0.000237s
+Updating ProjectSettings/InputManager.asset - GUID: 00000000000000002000000000000000...
+ done. [Time: 75.609000 ms] 
+Updating ProjectSettings/TagManager.asset - GUID: 00000000000000003000000000000000...
+ done. [Time: 2.181000 ms] 
+Updating ProjectSettings/ProjectSettings.asset - GUID: 00000000000000004000000000000000...
+ done. [Time: 3.024000 ms] 
+Updating ProjectSettings/NavMeshAreas.asset - GUID: 00000000000000004100000000000000...
+ done. [Time: 1.904000 ms] 
+Updating ProjectSettings/Physics2DSettings.asset - GUID: 00000000000000005100000000000000...
+ done. [Time: 2.059000 ms] 
+Updating ProjectSettings/AudioManager.asset - GUID: 00000000000000006000000000000000...
+FMOD failed to initialize the output device.: "Error initializing output device. " (60)
+ 
+(Filename: /home/builduser/buildslave/unity/build/Modules/Audio/Public/AudioManager.cpp Line: 1398)
+
+Forced to initialize FMOD to to the device driver's system output rate 48000, this may impact performance and/or give inconsistent experiences compared to selected sample rate 48000
+ 
+(Filename: /home/builduser/buildslave/unity/build/Modules/Audio/Public/AudioManager.cpp Line: 1343)
+
+FMOD failed to initialize the output device.: "Error initializing output device. " (60)
+ 
+(Filename: /home/builduser/buildslave/unity/build/Modules/Audio/Public/AudioManager.cpp Line: 1398)
+
+FMOD initialized on nosound output
+ done. [Time: 33.503000 ms] 
+Updating ProjectSettings/GraphicsSettings.asset - GUID: 00000000000000006100000000000000...
+ done. [Time: 2.180000 ms] 
+Updating ProjectSettings/TimeManager.asset - GUID: 00000000000000007000000000000000...
+ done. [Time: 2.089000 ms] 
+Updating ProjectSettings/ClusterInputManager.asset - GUID: 00000000000000007100000000000000...
+ done. [Time: 1.811000 ms] 
+Updating ProjectSettings/DynamicsManager.asset - GUID: 00000000000000008000000000000000...
+ done. [Time: 1.919000 ms] 
+Updating ProjectSettings/QualitySettings.asset - GUID: 00000000000000009000000000000000...
+ done. [Time: 2.101000 ms] 
+Updating ProjectSettings/UnityConnectSettings.asset - GUID: 0000000000000000a100000000000000...
+ done. [Time: 2.324000 ms] 
+Updating ProjectSettings/EditorBuildSettings.asset - GUID: 0000000000000000b000000000000000...
+ done. [Time: 2.024000 ms] 
+Updating ProjectSettings/PresetManager.asset - GUID: 0000000000000000b100000000000000...
+ done. [Time: 1.796000 ms] 
+Updating ProjectSettings/EditorSettings.asset - GUID: 0000000000000000c000000000000000...
+ done. [Time: 1.936000 ms] 
+Updating ProjectSettings/VFXManager.asset - GUID: 0000000000000000c100000000000000...
+ done. [Time: 1.933000 ms] 
+Script Compilation Pipeline Post Process Assets time: 0.000581s
+Assembly Updater Post Process Assets time: 0.000266s
+Unloading 111 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 21.6 MB.
+System memory in use after: 21.5 MB.
+
+Unloading 93 unused Assets to reduce memory usage. Loaded Objects now: 949.
+Total: 5.667000 ms (FindLiveObjects: 0.359000 ms CreateObjectMapping: 0.028000 ms MarkObjects: 4.885000 ms  DeleteObjects: 0.394000 ms)
+
+Refreshing native plugins compatible for Editor in 12.07 ms, found 1 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Script Compilation Pipeline Post Process Assets time: 0.000022s
+Assembly Updater Post Process Assets time: 0.000238s
+Updating ProjectSettings/InputManager.asset - GUID: 00000000000000002000000000000000...
+ done. [Time: 1.716000 ms] 
+Updating ProjectSettings/TagManager.asset - GUID: 00000000000000003000000000000000...
+ done. [Time: 1.465000 ms] 
+Updating ProjectSettings/NavMeshAreas.asset - GUID: 00000000000000004100000000000000...
+ done. [Time: 1.503000 ms] 
+Updating ProjectSettings/Physics2DSettings.asset - GUID: 00000000000000005100000000000000...
+ done. [Time: 1.405000 ms] 
+Updating ProjectSettings/AudioManager.asset - GUID: 00000000000000006000000000000000...
+ done. [Time: 1.433000 ms] 
+Updating ProjectSettings/GraphicsSettings.asset - GUID: 00000000000000006100000000000000...
+ done. [Time: 1.556000 ms] 
+Updating ProjectSettings/TimeManager.asset - GUID: 00000000000000007000000000000000...
+ done. [Time: 1.386000 ms] 
+Updating ProjectSettings/ClusterInputManager.asset - GUID: 00000000000000007100000000000000...
+ done. [Time: 1.628000 ms] 
+Updating ProjectSettings/DynamicsManager.asset - GUID: 00000000000000008000000000000000...
+ done. [Time: 1.484000 ms] 
+Updating ProjectSettings/QualitySettings.asset - GUID: 00000000000000009000000000000000...
+ done. [Time: 1.457000 ms] 
+Updating ProjectSettings/UnityConnectSettings.asset - GUID: 0000000000000000a100000000000000...
+ done. [Time: 1.462000 ms] 
+Updating ProjectSettings/EditorBuildSettings.asset - GUID: 0000000000000000b000000000000000...
+ done. [Time: 1.463000 ms] 
+Updating ProjectSettings/PresetManager.asset - GUID: 0000000000000000b100000000000000...
+ done. [Time: 1.462000 ms] 
+Updating ProjectSettings/EditorSettings.asset - GUID: 0000000000000000c000000000000000...
+ done. [Time: 1.415000 ms] 
+Updating ProjectSettings/VFXManager.asset - GUID: 0000000000000000c100000000000000...
+ done. [Time: 1.382000 ms] 
+Script Compilation Pipeline Post Process Assets time: 0.000019s
+Assembly Updater Post Process Assets time: 0.000240s
+Unloading 75 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 20.6 MB.
+System memory in use after: 20.5 MB.
+
+Unloading 60 unused Assets to reduce memory usage. Loaded Objects now: 949.
+Total: 5.464000 ms (FindLiveObjects: 0.290000 ms CreateObjectMapping: 0.029000 ms MarkObjects: 4.948000 ms  DeleteObjects: 0.196000 ms)
+
+Refreshing native plugins compatible for Editor in 11.87 ms, found 1 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+
+Refresh Completed time: 22.601154s
+	Asset Scan time: 0.014203s
+	Asset Hashing: 0.039389s [184.6 KB, 4.577826 mb/s]
+	Asset Import (Scripting) time: 0.309017s (count: 31)
+	Post Processs Assets (Scripting) time: 21.825021s
+	Asset Rehashing: 0.002196s [52.0 KB, 23.131813 mb/s]
+	Asset Import (Non Scripting) time: 0.160898s (count: 31)
+	Post Process Assets (Non Scripting) time: 0.012167s
+	Dependent Assets to Import Queue time: 0.000357s
+
+Warming cache for 628 main assets: 0.001253 seconds elapsed
+Initializing Unity extensions:
+ '/opt/Unity/Editor/Data/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll'  GUID: 6a10b2909283487f913b00d94cd3faf5
+ '/opt/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/portable/nunit.framework.dll'  GUID: 405b9b51bb344a128608d968297df79c
+ '/opt/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll'  GUID: f70555f144d8491a825f0804e09c671c
+ '/opt/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'  GUID: f5f67c52d1564df4a8936ccd202a3bd8
+ '/opt/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll'  GUID: 844f815391db42d49455cbf1a7bfc434
+ '/opt/Unity/Editor/Data/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll'  GUID: dc443db3e92b4983b9738c1131f555cb
+ '/opt/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Runtime/UnityEngine.SpatialTracking.dll'  GUID: ed7343f30e3843b3afda8f8b02669cea
+ '/opt/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll'  GUID: 4a3ecb1425d14502837abea459cf2b70
+ '/opt/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll'  GUID: 5f32cd94baa94578a686d4b9d6b660f7
+ '/opt/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll'  GUID: b5da970776034f77a070d99423d68791
+ '/opt/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'  GUID: 870353891bb340e2b2a9c8707e7419ba
+ '/opt/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll'  GUID: 53ebcfaa2e1e4e2dbc85882cd5a73fa1
+ '/opt/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll'  GUID: ead147da21254ff9a0a936bdd75e1680
+ '/opt/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Runtime/UnityEngine.GoogleAudioSpatializer.dll'  GUID: e4f4cf1b9b434137a499903a7a1d651a
+ '/opt/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll'  GUID: 4ba2329b63d54f0187bcaa12486b1b0f
+ '/opt/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll'  GUID: 3a84de5cd0624681b6b6dcd8921d912a
+ '/opt/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll'  GUID: 80a3616ca19596e4da0f10f14d241e9f
+ '/opt/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll'  GUID: 4113173d5e95493ab8765d7b08371de4
+ '/opt/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll'  GUID: 4b3fa4bde7f1451a8218c03ee6a8ded8
+ '/opt/Unity/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll'  GUID: 7668179ede524d6396c8b7d84461ea29
+UpdateMenuTitleForLanguage: 10
+Unloading 70 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 21.0 MB.
+System memory in use after: 21.0 MB.
+
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 969.
+Total: 5.603000 ms (FindLiveObjects: 0.276000 ms CreateObjectMapping: 0.025000 ms MarkObjects: 5.148000 ms  DeleteObjects: 0.153000 ms)
+
+Refreshing native plugins compatible for Editor in 4.01 ms, found 1 plugins.
+Running tests for editmode
+UnityEngine.DebugLogHandler:Internal_Log()
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEditor.TestTools.TestRunner.CommandLineTest.SettingsBuilder:LogParametersForRun(String, String[], String[], String) (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEditor.TestRunner/CommandLineTest/SettingsBuilder.cs:100)
+UnityEditor.TestTools.TestRunner.CommandLineTest.SettingsBuilder:BuildApiExecutionSettings(String[]) (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEditor.TestRunner/CommandLineTest/SettingsBuilder.cs:46)
+UnityEditor.TestTools.TestRunner.CommandLineTest.Executer:InitializeAndExecuteRun(String[]) (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEditor.TestRunner/CommandLineTest/Executer.cs:32)
+UnityEditor.TestTools.TestRunner.CommandLineTest.TestStarter:UpdateWatch() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEditor.TestRunner/CommandLineTest/TestStarter.cs:48)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions() (at /home/builduser/buildslave/unity/build/Editor/Mono/EditorApplication.cs:200)
+ 
+(Filename: /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEditor.TestRunner/CommandLineTest/SettingsBuilder.cs Line: 100)
+
+Executing tests with settings: test mode = EditMode
+UnityEngine.DebugLogHandler:Internal_Log()
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEditor.TestTools.TestRunner.Api.TestRunnerApi:Execute(ExecutionSettings) (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEditor.TestRunner/Api/TestRunnerApi.cs:15)
+UnityEditor.TestTools.TestRunner.CommandLineTest.Executer:InitializeAndExecuteRun(String[]) (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEditor.TestRunner/CommandLineTest/Executer.cs:42)
+UnityEditor.TestTools.TestRunner.CommandLineTest.TestStarter:UpdateWatch() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEditor.TestRunner/CommandLineTest/TestStarter.cs:48)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions() (at /home/builduser/buildslave/unity/build/Editor/Mono/EditorApplication.cs:200)
+ 
+(Filename: /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEditor.TestRunner/Api/TestRunnerApi.cs Line: 15)
+
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 21.8 MB.
+System memory in use after: 21.8 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 985.
+Total: 12.402000 ms (FindLiveObjects: 0.393000 ms CreateObjectMapping: 0.036000 ms MarkObjects: 11.875000 ms  DeleteObjects: 0.095000 ms)
+
+[UnityConnectServicesConfig] config is NOT valid, switching to default
+Created GICache directory at /tmp/GiCache. Took: 0.007s, timestamps: [31.327 - 31.334]
+[00:00:00] Enlighten: Precompute started.
+[PathTracer] Issuing atlassing job. Atlas hash: bc06a9703e5ae257241f86e6e5e9cb62, width: 1024, height: 1024
+No next dialogue node found
+UnityEngine.DebugLogHandler:Internal_Log()
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object, Object)
+UnityEngine.Debug:LogWarning(Object, Object)
+Chankiyu22.DialogueSystem.Dialogues.DialogueController:Next() (at Assets/Scripts/Dialogue/DialogueController.cs:133)
+Chankiyu22.DialogueSystem.Dialogues.TestDialogue:TestBranchedDialogue() (at Assets/Scripts/Tests/TestDialogue.cs:262)
+System.Reflection.MonoMethod:InternalInvoke()
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo, Object, Object[])
+NUnit.Framework.Internal.MethodWrapper:Invoke(Object, Object[])
+NUnit.Framework.Internal.Commands.TestMethodCommand:RunNonAsyncTestMethod(ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestMethodCommand:RunTestMethod(ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestMethodCommand:Execute(ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestActionCommand:Execute(ITestExecutionContext)
+UnityEngine.TestRunner.NUnitExtensions.Runner.UnityLogCheckDelegatingCommand:Execute(ITestExecutionContext) (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/UnityLogCheckDelegatingCommand.cs:22)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<ExecuteEnumerable>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/UnityLogCheckDelegatingCommand.cs:49)
+UnityEngine.TestTools.<ExecuteEnumerable>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Commands/SetUpTearDownCommand.cs:55)
+UnityEngine.TestTools.<ExecuteEnumerable>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Commands/EnumerableSetUpTearDownCommand.cs:101)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/DefaultTestWorkItem.cs:67)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEditor.TestTools.TestRunner.EditModeRunner:MoveNextAndUpdateYieldObject() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEditor.TestRunner/TestRunner/EditModeRunner.cs:206)
+UnityEditor.TestTools.TestRunner.EditModeRunner:TestConsumer() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEditor.TestRunner/TestRunner/EditModeRunner.cs:239)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions() (at /home/builduser/buildslave/unity/build/Editor/Mono/EditorApplication.cs:200)
+ 
+(Filename: Assets/Scripts/Dialogue/DialogueController.cs Line: 133)
+
+[00:00:00] Enlighten: Finished 1 Layout Systems job (0.00s execute, 0.00s integrate, 0.08s wallclock)
+[PathTracer] Integrated atlassing. Atlas hash: bc06a9703e5ae257241f86e6e5e9cb62 -> Atlas count: 0 -> Instance count: 0 -> Estimated texel count: 0.000M.
+DisplayProgressbar: Test Runner
+No next dialogue node found
+UnityEngine.DebugLogHandler:Internal_Log()
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object, Object)
+UnityEngine.Debug:LogWarning(Object, Object)
+Chankiyu22.DialogueSystem.Dialogues.DialogueController:Next() (at Assets/Scripts/Dialogue/DialogueController.cs:133)
+Chankiyu22.DialogueSystem.Dialogues.TestDialogue:TestLinearDialogue() (at Assets/Scripts/Tests/TestDialogue.cs:112)
+System.Reflection.MonoMethod:InternalInvoke()
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo, Object, Object[])
+NUnit.Framework.Internal.MethodWrapper:Invoke(Object, Object[])
+NUnit.Framework.Internal.Commands.TestMethodCommand:RunNonAsyncTestMethod(ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestMethodCommand:RunTestMethod(ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestMethodCommand:Execute(ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestActionCommand:Execute(ITestExecutionContext)
+UnityEngine.TestRunner.NUnitExtensions.Runner.UnityLogCheckDelegatingCommand:Execute(ITestExecutionContext) (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/UnityLogCheckDelegatingCommand.cs:22)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<ExecuteEnumerable>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/UnityLogCheckDelegatingCommand.cs:49)
+UnityEngine.TestTools.<ExecuteEnumerable>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Commands/SetUpTearDownCommand.cs:55)
+UnityEngine.TestTools.<ExecuteEnumerable>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Commands/EnumerableSetUpTearDownCommand.cs:101)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/DefaultTestWorkItem.cs:67)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEditor.TestTools.TestRunner.EditModeRunner:MoveNextAndUpdateYieldObject() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEditor.TestRunner/TestRunner/EditModeRunner.cs:206)
+UnityEditor.TestTools.TestRunner.EditModeRunner:TestConsumer() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEditor.TestRunner/TestRunner/EditModeRunner.cs:239)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions() (at /home/builduser/buildslave/unity/build/Editor/Mono/EditorApplication.cs:200)
+ 
+(Filename: Assets/Scripts/Dialogue/DialogueController.cs Line: 133)
+
+The current dialogue is not proceeding to options
+UnityEngine.DebugLogHandler:Internal_Log()
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object, Object)
+UnityEngine.Debug:LogWarning(Object, Object)
+Chankiyu22.DialogueSystem.Dialogues.DialogueController:SelectOption(DialogueOption) (at Assets/Scripts/Dialogue/DialogueController.cs:159)
+Chankiyu22.DialogueSystem.Dialogues.TestDialogueOption:TestOptions() (at Assets/Scripts/Tests/TestDialogueOption.cs:242)
+System.Reflection.MonoMethod:InternalInvoke()
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo, Object, Object[])
+NUnit.Framework.Internal.MethodWrapper:Invoke(Object, Object[])
+NUnit.Framework.Internal.Commands.TestMethodCommand:RunNonAsyncTestMethod(ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestMethodCommand:RunTestMethod(ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestMethodCommand:Execute(ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestActionCommand:Execute(ITestExecutionContext)
+UnityEngine.TestRunner.NUnitExtensions.Runner.UnityLogCheckDelegatingCommand:Execute(ITestExecutionContext) (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/UnityLogCheckDelegatingCommand.cs:22)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<ExecuteEnumerable>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/UnityLogCheckDelegatingCommand.cs:49)
+UnityEngine.TestTools.<ExecuteEnumerable>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Commands/SetUpTearDownCommand.cs:55)
+UnityEngine.TestTools.<ExecuteEnumerable>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Commands/EnumerableSetUpTearDownCommand.cs:101)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/DefaultTestWorkItem.cs:67)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEditor.TestTools.TestRunner.EditModeRunner:MoveNextAndUpdateYieldObject() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEditor.TestRunner/TestRunner/EditModeRunner.cs:206)
+UnityEditor.TestTools.TestRunner.EditModeRunner:TestConsumer() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEditor.TestRunner/TestRunner/EditModeRunner.cs:239)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions() (at /home/builduser/buildslave/unity/build/Editor/Mono/EditorApplication.cs:200)
+ 
+(Filename: Assets/Scripts/Dialogue/DialogueController.cs Line: 159)
+
+No next dialogue node found
+UnityEngine.DebugLogHandler:Internal_Log()
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object, Object)
+UnityEngine.Debug:LogWarning(Object, Object)
+Chankiyu22.DialogueSystem.Dialogues.DialogueController:Next() (at Assets/Scripts/Dialogue/DialogueController.cs:133)
+Chankiyu22.DialogueSystem.Dialogues.TestDialogueOption:TestOptions() (at Assets/Scripts/Tests/TestDialogueOption.cs:246)
+System.Reflection.MonoMethod:InternalInvoke()
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo, Object, Object[])
+NUnit.Framework.Internal.MethodWrapper:Invoke(Object, Object[])
+NUnit.Framework.Internal.Commands.TestMethodCommand:RunNonAsyncTestMethod(ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestMethodCommand:RunTestMethod(ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestMethodCommand:Execute(ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestActionCommand:Execute(ITestExecutionContext)
+UnityEngine.TestRunner.NUnitExtensions.Runner.UnityLogCheckDelegatingCommand:Execute(ITestExecutionContext) (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/UnityLogCheckDelegatingCommand.cs:22)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<ExecuteEnumerable>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/UnityLogCheckDelegatingCommand.cs:49)
+UnityEngine.TestTools.<ExecuteEnumerable>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Commands/SetUpTearDownCommand.cs:55)
+UnityEngine.TestTools.<ExecuteEnumerable>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Commands/EnumerableSetUpTearDownCommand.cs:101)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/DefaultTestWorkItem.cs:67)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEditor.TestTools.TestRunner.EditModeRunner:MoveNextAndUpdateYieldObject() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEditor.TestRunner/TestRunner/EditModeRunner.cs:206)
+UnityEditor.TestTools.TestRunner.EditModeRunner:TestConsumer() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEditor.TestRunner/TestRunner/EditModeRunner.cs:239)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions() (at /home/builduser/buildslave/unity/build/Editor/Mono/EditorApplication.cs:200)
+ 
+(Filename: Assets/Scripts/Dialogue/DialogueController.cs Line: 133)
+
+The current dialogue is not proceeding to options
+UnityEngine.DebugLogHandler:Internal_Log()
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object, Object)
+UnityEngine.Debug:LogWarning(Object, Object)
+Chankiyu22.DialogueSystem.Dialogues.DialogueController:SelectOption(DialogueOption) (at Assets/Scripts/Dialogue/DialogueController.cs:159)
+Chankiyu22.DialogueSystem.Dialogues.TestDialogueOption:TestOptions() (at Assets/Scripts/Tests/TestDialogueOption.cs:283)
+System.Reflection.MonoMethod:InternalInvoke()
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo, Object, Object[])
+NUnit.Framework.Internal.MethodWrapper:Invoke(Object, Object[])
+NUnit.Framework.Internal.Commands.TestMethodCommand:RunNonAsyncTestMethod(ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestMethodCommand:RunTestMethod(ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestMethodCommand:Execute(ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestActionCommand:Execute(ITestExecutionContext)
+UnityEngine.TestRunner.NUnitExtensions.Runner.UnityLogCheckDelegatingCommand:Execute(ITestExecutionContext) (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/UnityLogCheckDelegatingCommand.cs:22)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<ExecuteEnumerable>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/UnityLogCheckDelegatingCommand.cs:49)
+UnityEngine.TestTools.<ExecuteEnumerable>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Commands/SetUpTearDownCommand.cs:55)
+UnityEngine.TestTools.<ExecuteEnumerable>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Commands/EnumerableSetUpTearDownCommand.cs:101)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/DefaultTestWorkItem.cs:67)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEditor.TestTools.TestRunner.EditModeRunner:MoveNextAndUpdateYieldObject() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEditor.TestRunner/TestRunner/EditModeRunner.cs:206)
+UnityEditor.TestTools.TestRunner.EditModeRunner:TestConsumer() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEditor.TestRunner/TestRunner/EditModeRunner.cs:239)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions() (at /home/builduser/buildslave/unity/build/Editor/Mono/EditorApplication.cs:200)
+ 
+(Filename: Assets/Scripts/Dialogue/DialogueController.cs Line: 159)
+
+No next dialogue node found
+UnityEngine.DebugLogHandler:Internal_Log()
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object, Object)
+UnityEngine.Debug:LogWarning(Object, Object)
+Chankiyu22.DialogueSystem.Dialogues.DialogueController:Next() (at Assets/Scripts/Dialogue/DialogueController.cs:133)
+Chankiyu22.DialogueSystem.Dialogues.TestDialogueOption:TestOptions() (at Assets/Scripts/Tests/TestDialogueOption.cs:287)
+System.Reflection.MonoMethod:InternalInvoke()
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo, Object, Object[])
+NUnit.Framework.Internal.MethodWrapper:Invoke(Object, Object[])
+NUnit.Framework.Internal.Commands.TestMethodCommand:RunNonAsyncTestMethod(ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestMethodCommand:RunTestMethod(ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestMethodCommand:Execute(ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestActionCommand:Execute(ITestExecutionContext)
+UnityEngine.TestRunner.NUnitExtensions.Runner.UnityLogCheckDelegatingCommand:Execute(ITestExecutionContext) (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/UnityLogCheckDelegatingCommand.cs:22)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<ExecuteEnumerable>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/UnityLogCheckDelegatingCommand.cs:49)
+UnityEngine.TestTools.<ExecuteEnumerable>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Commands/SetUpTearDownCommand.cs:55)
+UnityEngine.TestTools.<ExecuteEnumerable>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Commands/EnumerableSetUpTearDownCommand.cs:101)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/DefaultTestWorkItem.cs:67)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEditor.TestTools.TestRunner.EditModeRunner:MoveNextAndUpdateYieldObject() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEditor.TestRunner/TestRunner/EditModeRunner.cs:206)
+UnityEditor.TestTools.TestRunner.EditModeRunner:TestConsumer() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEditor.TestRunner/TestRunner/EditModeRunner.cs:239)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions() (at /home/builduser/buildslave/unity/build/Editor/Mono/EditorApplication.cs:200)
+ 
+(Filename: Assets/Scripts/Dialogue/DialogueController.cs Line: 133)
+
+The current dialogue is not proceeding to options
+UnityEngine.DebugLogHandler:Internal_Log()
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object, Object)
+UnityEngine.Debug:LogWarning(Object, Object)
+Chankiyu22.DialogueSystem.Dialogues.DialogueController:SelectOption(DialogueOption) (at Assets/Scripts/Dialogue/DialogueController.cs:159)
+Chankiyu22.DialogueSystem.Dialogues.TestDialogueOption:TestOptions() (at Assets/Scripts/Tests/TestDialogueOption.cs:321)
+System.Reflection.MonoMethod:InternalInvoke()
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo, Object, Object[])
+NUnit.Framework.Internal.MethodWrapper:Invoke(Object, Object[])
+NUnit.Framework.Internal.Commands.TestMethodCommand:RunNonAsyncTestMethod(ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestMethodCommand:RunTestMethod(ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestMethodCommand:Execute(ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestActionCommand:Execute(ITestExecutionContext)
+UnityEngine.TestRunner.NUnitExtensions.Runner.UnityLogCheckDelegatingCommand:Execute(ITestExecutionContext) (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/UnityLogCheckDelegatingCommand.cs:22)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<ExecuteEnumerable>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/UnityLogCheckDelegatingCommand.cs:49)
+UnityEngine.TestTools.<ExecuteEnumerable>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Commands/SetUpTearDownCommand.cs:55)
+UnityEngine.TestTools.<ExecuteEnumerable>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Commands/EnumerableSetUpTearDownCommand.cs:101)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/DefaultTestWorkItem.cs:67)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEditor.TestTools.TestRunner.EditModeRunner:MoveNextAndUpdateYieldObject() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEditor.TestRunner/TestRunner/EditModeRunner.cs:206)
+UnityEditor.TestTools.TestRunner.EditModeRunner:TestConsumer() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEditor.TestRunner/TestRunner/EditModeRunner.cs:239)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions() (at /home/builduser/buildslave/unity/build/Editor/Mono/EditorApplication.cs:200)
+ 
+(Filename: Assets/Scripts/Dialogue/DialogueController.cs Line: 159)
+
+No next dialogue node found
+UnityEngine.DebugLogHandler:Internal_Log()
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object, Object)
+UnityEngine.Debug:LogWarning(Object, Object)
+Chankiyu22.DialogueSystem.Dialogues.DialogueController:Next() (at Assets/Scripts/Dialogue/DialogueController.cs:133)
+Chankiyu22.DialogueSystem.Dialogues.TestDialogueOption:TestOptions() (at Assets/Scripts/Tests/TestDialogueOption.cs:325)
+System.Reflection.MonoMethod:InternalInvoke()
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo, Object, Object[])
+NUnit.Framework.Internal.MethodWrapper:Invoke(Object, Object[])
+NUnit.Framework.Internal.Commands.TestMethodCommand:RunNonAsyncTestMethod(ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestMethodCommand:RunTestMethod(ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestMethodCommand:Execute(ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestActionCommand:Execute(ITestExecutionContext)
+UnityEngine.TestRunner.NUnitExtensions.Runner.UnityLogCheckDelegatingCommand:Execute(ITestExecutionContext) (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/UnityLogCheckDelegatingCommand.cs:22)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<ExecuteEnumerable>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/UnityLogCheckDelegatingCommand.cs:49)
+UnityEngine.TestTools.<ExecuteEnumerable>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Commands/SetUpTearDownCommand.cs:55)
+UnityEngine.TestTools.<ExecuteEnumerable>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Commands/EnumerableSetUpTearDownCommand.cs:101)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/DefaultTestWorkItem.cs:67)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEditor.TestTools.TestRunner.EditModeRunner:MoveNextAndUpdateYieldObject() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEditor.TestRunner/TestRunner/EditModeRunner.cs:206)
+UnityEditor.TestTools.TestRunner.EditModeRunner:TestConsumer() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEditor.TestRunner/TestRunner/EditModeRunner.cs:239)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions() (at /home/builduser/buildslave/unity/build/Editor/Mono/EditorApplication.cs:200)
+ 
+(Filename: Assets/Scripts/Dialogue/DialogueController.cs Line: 133)
+
+[00:00:00] Enlighten: Finished 1 Tetrahedralize Probes job (0.00s execute, 0.00s integrate, 0.06s wallclock)
+[00:00:00] Enlighten: Precompute took 0.146407 seconds.
+Enlighten scene contents:   0 geometries.   0 instances.   0 systems.   0 probe groups.   0 cube maps. Scene is up-to-date.
+[00:00:00] Enlighten: Bake started.
+[PathTracer][LP] Issuing deduplication and tetrahedralization job. Combined: 80257199cfa681a16be5e09b3c2208f4, tetrahedralized probes: 00000000000000000000000000000000, non-tetrahedralized probes: 00000000000000000000000000000000, dependencies: 00000000000000000000000000000000
+Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 7f14e2493700 -> priority: 1 
+[00:00:00] Enlighten: Finished 1 Bake Runtime job (0.19s execute, 0.00s integrate, 0.62s wallclock)
+[00:00:00] Enlighten: Bake took 0.619834 seconds.
+[PathTracer][LP] Integrating deduplicated and tetrahedralized probes for hash 80257199cfa681a16be5e09b3c2208f4.
+No next dialogue node found
+UnityEngine.DebugLogHandler:Internal_Log()
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object, Object)
+UnityEngine.Debug:LogWarning(Object, Object)
+Chankiyu22.DialogueSystem.Dialogues.DialogueController:Next() (at Assets/Scripts/Dialogue/DialogueController.cs:133)
+Chankiyu22.DialogueSystem.Dialogues.TestStartDialogue:Test_DialogueController_StartDialogue() (at Assets/Scripts/Tests/TestStartDialogue.cs:170)
+System.Reflection.MonoMethod:InternalInvoke()
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo, Object, Object[])
+NUnit.Framework.Internal.MethodWrapper:Invoke(Object, Object[])
+NUnit.Framework.Internal.Commands.TestMethodCommand:RunNonAsyncTestMethod(ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestMethodCommand:RunTestMethod(ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestMethodCommand:Execute(ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestActionCommand:Execute(ITestExecutionContext)
+UnityEngine.TestRunner.NUnitExtensions.Runner.UnityLogCheckDelegatingCommand:Execute(ITestExecutionContext) (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/UnityLogCheckDelegatingCommand.cs:22)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<ExecuteEnumerable>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/UnityLogCheckDelegatingCommand.cs:49)
+UnityEngine.TestTools.<ExecuteEnumerable>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Commands/SetUpTearDownCommand.cs:55)
+UnityEngine.TestTools.<ExecuteEnumerable>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Commands/EnumerableSetUpTearDownCommand.cs:101)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/DefaultTestWorkItem.cs:67)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEditor.TestTools.TestRunner.EditModeRunner:MoveNextAndUpdateYieldObject() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEditor.TestRunner/TestRunner/EditModeRunner.cs:206)
+UnityEditor.TestTools.TestRunner.EditModeRunner:TestConsumer() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEditor.TestRunner/TestRunner/EditModeRunner.cs:239)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions() (at /home/builduser/buildslave/unity/build/Editor/Mono/EditorApplication.cs:200)
+ 
+(Filename: Assets/Scripts/Dialogue/DialogueController.cs Line: 133)
+
+No next dialogue node found
+UnityEngine.DebugLogHandler:Internal_Log()
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object, Object)
+UnityEngine.Debug:LogWarning(Object, Object)
+Chankiyu22.DialogueSystem.Dialogues.DialogueController:Next() (at Assets/Scripts/Dialogue/DialogueController.cs:133)
+Chankiyu22.DialogueSystem.Dialogues.TestStartDialogue:Test_DialogueController_StartDialogue() (at Assets/Scripts/Tests/TestStartDialogue.cs:170)
+System.Reflection.MonoMethod:InternalInvoke()
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo, Object, Object[])
+NUnit.Framework.Internal.MethodWrapper:Invoke(Object, Object[])
+NUnit.Framework.Internal.Commands.TestMethodCommand:RunNonAsyncTestMethod(ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestMethodCommand:RunTestMethod(ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestMethodCommand:Execute(ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestActionCommand:Execute(ITestExecutionContext)
+UnityEngine.TestRunner.NUnitExtensions.Runner.UnityLogCheckDelegatingCommand:Execute(ITestExecutionContext) (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/UnityLogCheckDelegatingCommand.cs:22)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<ExecuteEnumerable>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/UnityLogCheckDelegatingCommand.cs:49)
+UnityEngine.TestTools.<ExecuteEnumerable>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Commands/SetUpTearDownCommand.cs:55)
+UnityEngine.TestTools.<ExecuteEnumerable>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Commands/EnumerableSetUpTearDownCommand.cs:101)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/DefaultTestWorkItem.cs:67)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEditor.TestTools.TestRunner.EditModeRunner:MoveNextAndUpdateYieldObject() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEditor.TestRunner/TestRunner/EditModeRunner.cs:206)
+UnityEditor.TestTools.TestRunner.EditModeRunner:TestConsumer() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEditor.TestRunner/TestRunner/EditModeRunner.cs:239)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions() (at /home/builduser/buildslave/unity/build/Editor/Mono/EditorApplication.cs:200)
+ 
+(Filename: Assets/Scripts/Dialogue/DialogueController.cs Line: 133)
+
+No next dialogue node found
+UnityEngine.DebugLogHandler:Internal_Log()
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object, Object)
+UnityEngine.Debug:LogWarning(Object, Object)
+Chankiyu22.DialogueSystem.Dialogues.DialogueController:Next() (at Assets/Scripts/Dialogue/DialogueController.cs:133)
+Chankiyu22.DialogueSystem.Dialogues.TestStartDialogue:Test_DialogueController_StartDialogue() (at Assets/Scripts/Tests/TestStartDialogue.cs:170)
+System.Reflection.MonoMethod:InternalInvoke()
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo, Object, Object[])
+NUnit.Framework.Internal.MethodWrapper:Invoke(Object, Object[])
+NUnit.Framework.Internal.Commands.TestMethodCommand:RunNonAsyncTestMethod(ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestMethodCommand:RunTestMethod(ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestMethodCommand:Execute(ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestActionCommand:Execute(ITestExecutionContext)
+UnityEngine.TestRunner.NUnitExtensions.Runner.UnityLogCheckDelegatingCommand:Execute(ITestExecutionContext) (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/UnityLogCheckDelegatingCommand.cs:22)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<ExecuteEnumerable>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/UnityLogCheckDelegatingCommand.cs:49)
+UnityEngine.TestTools.<ExecuteEnumerable>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Commands/SetUpTearDownCommand.cs:55)
+UnityEngine.TestTools.<ExecuteEnumerable>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Commands/EnumerableSetUpTearDownCommand.cs:101)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/DefaultTestWorkItem.cs:67)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEditor.TestTools.TestRunner.EditModeRunner:MoveNextAndUpdateYieldObject() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEditor.TestRunner/TestRunner/EditModeRunner.cs:206)
+UnityEditor.TestTools.TestRunner.EditModeRunner:TestConsumer() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEditor.TestRunner/TestRunner/EditModeRunner.cs:239)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions() (at /home/builduser/buildslave/unity/build/Editor/Mono/EditorApplication.cs:200)
+ 
+(Filename: Assets/Scripts/Dialogue/DialogueController.cs Line: 133)
+
+No next dialogue node found
+UnityEngine.DebugLogHandler:Internal_Log()
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object, Object)
+UnityEngine.Debug:LogWarning(Object, Object)
+Chankiyu22.DialogueSystem.Dialogues.DialogueController:Next() (at Assets/Scripts/Dialogue/DialogueController.cs:133)
+Chankiyu22.DialogueSystem.Dialogues.TestStartDialogue:Test_DialogueController_StartDialogueWithInitialVariables_VariableAssignmentsStaticController() (at Assets/Scripts/Tests/TestStartDialogue.cs:198)
+System.Reflection.MonoMethod:InternalInvoke()
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo, Object, Object[])
+NUnit.Framework.Internal.MethodWrapper:Invoke(Object, Object[])
+NUnit.Framework.Internal.Commands.TestMethodCommand:RunNonAsyncTestMethod(ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestMethodCommand:RunTestMethod(ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestMethodCommand:Execute(ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestActionCommand:Execute(ITestExecutionContext)
+UnityEngine.TestRunner.NUnitExtensions.Runner.UnityLogCheckDelegatingCommand:Execute(ITestExecutionContext) (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/UnityLogCheckDelegatingCommand.cs:22)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<ExecuteEnumerable>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/UnityLogCheckDelegatingCommand.cs:49)
+UnityEngine.TestTools.<ExecuteEnumerable>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Commands/SetUpTearDownCommand.cs:55)
+UnityEngine.TestTools.<ExecuteEnumerable>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Commands/EnumerableSetUpTearDownCommand.cs:101)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/DefaultTestWorkItem.cs:67)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEditor.TestTools.TestRunner.EditModeRunner:MoveNextAndUpdateYieldObject() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEditor.TestRunner/TestRunner/EditModeRunner.cs:206)
+UnityEditor.TestTools.TestRunner.EditModeRunner:TestConsumer() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEditor.TestRunner/TestRunner/EditModeRunner.cs:239)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions() (at /home/builduser/buildslave/unity/build/Editor/Mono/EditorApplication.cs:200)
+ 
+(Filename: Assets/Scripts/Dialogue/DialogueController.cs Line: 133)
+
+No next dialogue node found
+UnityEngine.DebugLogHandler:Internal_Log()
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object, Object)
+UnityEngine.Debug:LogWarning(Object, Object)
+Chankiyu22.DialogueSystem.Dialogues.DialogueController:Next() (at Assets/Scripts/Dialogue/DialogueController.cs:133)
+Chankiyu22.DialogueSystem.Dialogues.TestStartDialogue:Test_DialogueController_StartDialogueWithInitialVariables_VariableAssignmentsStaticController() (at Assets/Scripts/Tests/TestStartDialogue.cs:198)
+System.Reflection.MonoMethod:InternalInvoke()
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo, Object, Object[])
+NUnit.Framework.Internal.MethodWrapper:Invoke(Object, Object[])
+NUnit.Framework.Internal.Commands.TestMethodCommand:RunNonAsyncTestMethod(ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestMethodCommand:RunTestMethod(ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestMethodCommand:Execute(ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestActionCommand:Execute(ITestExecutionContext)
+UnityEngine.TestRunner.NUnitExtensions.Runner.UnityLogCheckDelegatingCommand:Execute(ITestExecutionContext) (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/UnityLogCheckDelegatingCommand.cs:22)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<ExecuteEnumerable>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/UnityLogCheckDelegatingCommand.cs:49)
+UnityEngine.TestTools.<ExecuteEnumerable>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Commands/SetUpTearDownCommand.cs:55)
+UnityEngine.TestTools.<ExecuteEnumerable>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Commands/EnumerableSetUpTearDownCommand.cs:101)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/DefaultTestWorkItem.cs:67)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEditor.TestTools.TestRunner.EditModeRunner:MoveNextAndUpdateYieldObject() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEditor.TestRunner/TestRunner/EditModeRunner.cs:206)
+UnityEditor.TestTools.TestRunner.EditModeRunner:TestConsumer() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEditor.TestRunner/TestRunner/EditModeRunner.cs:239)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions() (at /home/builduser/buildslave/unity/build/Editor/Mono/EditorApplication.cs:200)
+ 
+(Filename: Assets/Scripts/Dialogue/DialogueController.cs Line: 133)
+
+No next dialogue node found
+UnityEngine.DebugLogHandler:Internal_Log()
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object, Object)
+UnityEngine.Debug:LogWarning(Object, Object)
+Chankiyu22.DialogueSystem.Dialogues.DialogueController:Next() (at Assets/Scripts/Dialogue/DialogueController.cs:133)
+Chankiyu22.DialogueSystem.Dialogues.TestStartDialogue:Test_DialogueController_StartDialogueWithInitialVariables_VariableAssignmentsStaticController() (at Assets/Scripts/Tests/TestStartDialogue.cs:198)
+System.Reflection.MonoMethod:InternalInvoke()
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo, Object, Object[])
+NUnit.Framework.Internal.MethodWrapper:Invoke(Object, Object[])
+NUnit.Framework.Internal.Commands.TestMethodCommand:RunNonAsyncTestMethod(ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestMethodCommand:RunTestMethod(ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestMethodCommand:Execute(ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestActionCommand:Execute(ITestExecutionContext)
+UnityEngine.TestRunner.NUnitExtensions.Runner.UnityLogCheckDelegatingCommand:Execute(ITestExecutionContext) (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/UnityLogCheckDelegatingCommand.cs:22)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<ExecuteEnumerable>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/UnityLogCheckDelegatingCommand.cs:49)
+UnityEngine.TestTools.<ExecuteEnumerable>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Commands/SetUpTearDownCommand.cs:55)
+UnityEngine.TestTools.<ExecuteEnumerable>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Commands/EnumerableSetUpTearDownCommand.cs:101)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/DefaultTestWorkItem.cs:67)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<RunChildren>c__Iterator1:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:190)
+UnityEngine.TestRunner.NUnitExtensions.Runner.<PerformWork>c__Iterator0:MoveNext() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:73)
+UnityEditor.TestTools.TestRunner.EditModeRunner:MoveNextAndUpdateYieldObject() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEditor.TestRunner/TestRunner/EditModeRunner.cs:206)
+UnityEditor.TestTools.TestRunner.EditModeRunner:TestConsumer() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEditor.TestRunner/TestRunner/EditModeRunner.cs:239)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions() (at /home/builduser/buildslave/unity/build/Editor/Mono/EditorApplication.cs:200)
+ 
+(Filename: Assets/Scripts/Dialogue/DialogueController.cs Line: 133)
+
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 21.9 MB.
+System memory in use after: 22.0 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 992.
+Total: 10.540000 ms (FindLiveObjects: 0.291000 ms CreateObjectMapping: 0.042000 ms MarkObjects: 10.125000 ms  DeleteObjects: 0.082000 ms)
+
+DisplayProgressbar: Undo
+Saving results to: /github/workspace/artifacts/editmode-results.xml
+UnityEngine.DebugLogHandler:Internal_Log()
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEditor.TestTools.TestRunner.CommandLineTest.ResultsWriter:WriteResultToFile(ITestResult, String) (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEditor.TestRunner/CommandLineTest/ResultsWriter.cs:35)
+UnityEditor.TestTools.TestRunner.CommandLineTest.ResultsSavingCallbacks:RunFinished(ITestResult) (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEditor.TestRunner/CommandLineTest/ResultsSavingCallbacks.cs:32)
+UnityEditor.TestTools.TestRunner.Api.<RunFinished>c__AnonStorey2:<>m__0(ICallbacks) (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEditor.TestRunner/Api/CallbacksDelegator.cs:30)
+UnityEditor.TestTools.TestRunner.Api.CallbacksDelegator:TryInvokeAllCallbacks(Action`1) (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEditor.TestRunner/Api/CallbacksDelegator.cs:80)
+UnityEditor.TestTools.TestRunner.Api.CallbacksDelegator:RunFinished(ITestResult) (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEditor.TestRunner/Api/CallbacksDelegator.cs:30)
+UnityEditor.TestTools.TestRunner.Api.CallbacksDelegatorListener:RunFinished(ITestResult) (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEditor.TestRunner/Api/CallbacksDelegatorListener.cs:15)
+UnityEngine.Events.InvokableCall`1:Invoke(ITestResult) (at /home/builduser/buildslave/unity/build/Runtime/Export/UnityEvent.cs:207)
+UnityEngine.Events.UnityEvent`1:Invoke(ITestResult) (at /home/builduser/buildslave/unity/build/Runtime/Export/UnityEvent_1.cs:58)
+UnityEditor.TestTools.TestRunner.EditModeRunner:CompleteTestRun() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEditor.TestRunner/TestRunner/EditModeRunner.cs:263)
+UnityEditor.TestTools.TestRunner.EditModeRunner:TestConsumer() (at /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEditor.TestRunner/TestRunner/EditModeRunner.cs:254)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions() (at /home/builduser/buildslave/unity/build/Editor/Mono/EditorApplication.cs:200)
+ 
+(Filename: /home/builduser/buildslave/unity/build/Extensions/TestRunner/UnityEditor.TestRunner/CommandLineTest/ResultsWriter.cs Line: 35)
+
+[Performance] CurlRequestCheck                        :       19 samples, Peak.  47.0 us (2.3x), Avg.  20.6 us, Total. 392.2 us (0.0%)
+[Performance] PackageManager::RunRequestSynchronously :       32 samples, Peak.   464 us (15.0x), Avg.  31.0 us, Total. 993.0 us (0.0%)
+[Performance] ApplicationTickTimer                    :       14 samples, Peak.   564 ms (7.3x), Avg.  77.2 ms, Total. 1.080 s (3.3%)
+[Performance] License.Tick                            :        8 samples, Peak.  2.86 us (1.3x), Avg.  2.15 us, Total. 17.17 us (0.0%)
+[Performance] VCProvider                              :       15 samples, Peak.  14.1 us (7.7x), Avg.  1.83 us, Total. 27.42 us (0.0%)
+[Performance] MonoCompiler.Tick                       :        3 samples, Peak.  1.49 ms (3.0x), Avg.   496 us, Total. 1.488 ms (0.0%)
+[Performance] Internal_SwitchSkin                     :       15 samples, Peak.   954 ns (7.5x), Avg.   127 ns, Total. 1.907 us (0.0%)
+[Performance] UnityConnect.Tick                       :        6 samples, Peak.  2.88 ms (5.7x), Avg.   506 us, Total. 3.037 ms (0.0%)
+[Performance] Collab.Tick                             :        6 samples, Peak.  3.10 us (1.6x), Avg.  1.95 us, Total. 11.68 us (0.0%)
+[Performance] WebView.Tick                            :        8 samples, Peak.   402 us (4.3x), Avg.  94.4 us, Total. 754.8 us (0.0%)
+[Performance] CurlRequest.Tick                        :        5 samples, Peak.  59.8 ms (5.0x), Avg.  12.0 ms, Total. 59.77 ms (0.2%)
+[Performance] SceneBackgroundTask.Tick                :        3 samples, Peak.  9.06 us (2.7x), Avg.  3.34 us, Total. 10.01 us (0.0%)
+[Performance] Scheduler.Tick                          :       10 samples, Peak.  5.42 ms (9.7x), Avg.   558 us, Total. 5.584 ms (0.0%)
+[Performance] RepaintAllProfilerWindows               :        2 samples, Peak.   822 us (2.0x), Avg.   412 us, Total. 824.0 us (0.0%)
+[Performance] PlayerUpdates.Tick                      :        6 samples, Peak.  31.9 us (1.3x), Avg.  25.0 us, Total. 150.2 us (0.0%)
+[Performance] GlobalCallbacks                         :       15 samples, Peak.   557 ms (14.1x), Avg.  39.4 ms, Total. 590.3 ms (1.8%)
+[Performance] EditorAnalytics.Tick                    :        3 samples, Peak.  11.0 us (2.8x), Avg.  3.97 us, Total. 11.92 us (0.0%)
+[Performance] GI.Tick                                 :        6 samples, Peak.   557 ms (5.9x), Avg.  94.7 ms, Total. 567.9 ms (1.7%)
+[Performance] Video.Update                            :       15 samples, Peak.  1.91 us (1.9x), Avg.  1.02 us, Total. 15.26 us (0.0%)
+[Performance] UnitySynchronization.ExecuteTasks       :        6 samples, Peak.  10.0 us (2.0x), Avg.  4.89 us, Total. 29.33 us (0.0%)
+[Performance] PreloadManager                          :       15 samples, Peak.  13.1 us (3.5x), Avg.  3.78 us, Total. 56.74 us (0.0%)
+[Performance] SceneTracker                            :       14 samples, Peak.   220 ms (7.4x), Avg.  29.7 ms, Total. 415.2 ms (1.3%)
+[Performance] ConsoleLog.Tick                         :        2 samples, Peak.   228 us (1.8x), Avg.   128 us, Total. 255.1 us (0.0%)
+[Performance] HierarchyWindow.Tick                    :        2 samples, Peak.  1.13 ms (1.8x), Avg.   626 us, Total. 1.252 ms (0.0%)
+[Performance] Inspector.Tick                          :        2 samples, Peak.   134 us (1.4x), Avg.  93.5 us, Total. 186.9 us (0.0%)
+[Performance] Tooltip.Tick                            :        5 samples, Peak.  5.01 us (1.8x), Avg.  2.81 us, Total. 14.07 us (0.0%)
+[Performance] RequestRepaintForPanels                 :       14 samples, Peak.   223 us (12.4x), Avg.  17.9 us, Total. 251.3 us (0.0%)
+[Performance] UpdateSceneIfNeeded                     :       14 samples, Peak.   236 us (3.2x), Avg.  74.8 us, Total. 1.047 ms (0.0%)
+[Performance] UpdateVideoTextures                     :       14 samples, Peak.  1.19 us (4.1x), Avg.   290 ns, Total. 4.053 us (0.0%)
+[Performance] PackageImporter.Tick                    :        2 samples, Peak.   954 ns (1.0x), Avg.   954 ns, Total. 1.907 us (0.0%)
+[Performance] InspectorBackground.Tick                :        2 samples, Peak.  1.19 us (1.1x), Avg.  1.07 us, Total. 2.146 us (0.0%)
+[Performance] ChangeLayoutIfNeeded                    :       14 samples, Peak.   954 ns (4.7x), Avg.   204 ns, Total. 2.861 us (0.0%)
+[Performance] AsyncReadManager.ForceCloseFiles        :        1 samples, Peak.  28.8 us (1.0x), Avg.  28.8 us, Total. 28.85 us (0.0%)
+Refresh: detecting if any assets need to be imported or removed ...
+Refreshing native plugins compatible for Editor in 3.99 ms, found 1 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+
+Refresh Completed time: 0.025226s
+	Asset Scan time: 0.010996s
+	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Scripting) time: 0.000000s (count: 0)
+	Post Processs Assets (Scripting) time: 0.000000s
+	Asset Rehashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Non Scripting) time: 0.000000s (count: 0)
+	Post Process Assets (Non Scripting) time: 0.000000s
+	Dependent Assets to Import Queue time: 0.000000s
+
+Refresh: detecting if any assets need to be imported or removed ...
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+
+Refresh Completed time: 0.020543s
+	Asset Scan time: 0.010216s
+	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Scripting) time: 0.000000s (count: 0)
+	Post Processs Assets (Scripting) time: 0.000000s
+	Asset Rehashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Non Scripting) time: 0.000000s (count: 0)
+	Post Process Assets (Non Scripting) time: 0.000000s
+	Dependent Assets to Import Queue time: 0.000000s
+
+[Package Manager] Server::Kill -- Server was shutdown
+Cleanup mono
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1598192030308,"processId":54,"allocatedMemory":305173,"memoryLabels":[{"Default":1796},{"Thread":192},{"Manager":616},{"GfxDevice":72},{"Physics":81},{"Serialization":40},{"Terrain":112},{"String":190002},{"DynamicArray":24829},{"HashMap":768},{"Curl":1112},{"PoolAlloc":8},{"Sprites":8},{"GI":600},{"VR":1914},{"EditorUtility":372},{"AssetImporter":24},{"RestService":256},{"ProgressiveLightmapper":3592},{"License":8},{"UnityConnect":20888},{"Collab":744},{"Upm":57139}]}

@@ -1,0 +1,9 @@
+name: "Unity Test Result Pretty Print"
+description: "Unity Test Result Pretty Print"
+inputs:
+  path:
+    description: "Test result path"
+    required: true
+runs:
+  using: "node12"
+  main: "dist/index.js"

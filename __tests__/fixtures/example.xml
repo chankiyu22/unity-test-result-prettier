@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="5" result="Failed(Child)" total="5" passed="4" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2020-08-23 10:32:22Z" end-time="2020-08-23 10:32:23Z" duration="1.100576">
+  <test-suite type="TestSuite" id="1000" name="Unity-Dialogue-System" fullname="Unity-Dialogue-System" runstate="Runnable" testcasecount="5" result="Failed" site="Child" start-time="2020-08-23 10:32:22Z" end-time="2020-08-23 10:32:23Z" duration="1.100576" total="5" passed="4" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1009" name="Chankiyu22.DialogueSystem.Tests.dll" fullname="/github/workspace/Library/ScriptAssemblies/Chankiyu22.DialogueSystem.Tests.dll" runstate="Runnable" testcasecount="5" result="Failed" site="Child" start-time="2020-08-23 10:32:22Z" end-time="2020-08-23 10:32:23Z" duration="1.006077" total="5" passed="4" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="54" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1010" name="Chankiyu22" fullname="Chankiyu22" runstate="Runnable" testcasecount="5" result="Failed" site="Child" start-time="2020-08-23 10:32:22Z" end-time="2020-08-23 10:32:23Z" duration="0.967461" total="5" passed="4" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1011" name="DialogueSystem" fullname="Chankiyu22.DialogueSystem" runstate="Runnable" testcasecount="5" result="Failed" site="Child" start-time="2020-08-23 10:32:22Z" end-time="2020-08-23 10:32:23Z" duration="0.935666" total="5" passed="4" failed="1" inconclusive="0" skipped="0" asserts="0">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="1012" name="Dialogues" fullname="Chankiyu22.DialogueSystem.Dialogues" runstate="Runnable" testcasecount="5" result="Failed" site="Child" start-time="2020-08-23 10:32:22Z" end-time="2020-08-23 10:32:23Z" duration="0.908016" total="5" passed="4" failed="1" inconclusive="0" skipped="0" asserts="0">
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestFixture" id="1001" name="TestDialogue" fullname="Chankiyu22.DialogueSystem.Dialogues.TestDialogue" classname="Chankiyu22.DialogueSystem.Dialogues.TestDialogue" runstate="Runnable" testcasecount="2" result="Passed" start-time="2020-08-23 10:32:22Z" end-time="2020-08-23 10:32:22Z" duration="0.087144" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1003" name="TestBranchedDialogue" fullname="Chankiyu22.DialogueSystem.Dialogues.TestDialogue.TestBranchedDialogue" methodname="TestBranchedDialogue" classname="Chankiyu22.DialogueSystem.Dialogues.TestDialogue" runstate="Runnable" seed="1920843764" result="Passed" start-time="2020-08-23 10:32:22Z" end-time="2020-08-23 10:32:22Z" duration="0.051641" asserts="0">
+                <output><![CDATA[No next dialogue node found
+]]></output>
+              </test-case>
+              <test-case id="1002" name="TestLinearDialogue" fullname="Chankiyu22.DialogueSystem.Dialogues.TestDialogue.TestLinearDialogue" methodname="TestLinearDialogue" classname="Chankiyu22.DialogueSystem.Dialogues.TestDialogue" runstate="Runnable" seed="50889064" result="Passed" start-time="2020-08-23 10:32:22Z" end-time="2020-08-23 10:32:22Z" duration="0.006448" asserts="0">
+                <output><![CDATA[No next dialogue node found
+]]></output>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1004" name="TestDialogueOption" fullname="Chankiyu22.DialogueSystem.Dialogues.TestDialogueOption" classname="Chankiyu22.DialogueSystem.Dialogues.TestDialogueOption" runstate="Runnable" testcasecount="1" result="Passed" start-time="2020-08-23 10:32:22Z" end-time="2020-08-23 10:32:23Z" duration="0.638062" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <test-case id="1005" name="TestOptions" fullname="Chankiyu22.DialogueSystem.Dialogues.TestDialogueOption.TestOptions" methodname="TestOptions" classname="Chankiyu22.DialogueSystem.Dialogues.TestDialogueOption" runstate="Runnable" seed="950438021" result="Passed" start-time="2020-08-23 10:32:22Z" end-time="2020-08-23 10:32:23Z" duration="0.625531" asserts="0">
+                <output><![CDATA[The current dialogue is not proceeding to options
+No next dialogue node found
+The current dialogue is not proceeding to options
+No next dialogue node found
+The current dialogue is not proceeding to options
+No next dialogue node found
+]]></output>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1006" name="TestStartDialogue" fullname="Chankiyu22.DialogueSystem.Dialogues.TestStartDialogue" classname="Chankiyu22.DialogueSystem.Dialogues.TestStartDialogue" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2020-08-23 10:32:23Z" end-time="2020-08-23 10:32:23Z" duration="0.163881" total="2" passed="1" failed="1" inconclusive="0" skipped="0" asserts="0">
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1007" name="Test_DialogueController_StartDialogue" fullname="Chankiyu22.DialogueSystem.Dialogues.TestStartDialogue.Test_DialogueController_StartDialogue" methodname="Test_DialogueController_StartDialogue" classname="Chankiyu22.DialogueSystem.Dialogues.TestStartDialogue" runstate="Runnable" seed="237554876" result="Passed" start-time="2020-08-23 10:32:23Z" end-time="2020-08-23 10:32:23Z" duration="0.044341" asserts="0">
+                <output><![CDATA[No next dialogue node found
+No next dialogue node found
+No next dialogue node found
+]]></output>
+              </test-case>
+              <test-case id="1008" name="Test_DialogueController_StartDialogueWithInitialVariables_VariableAssignmentsStaticController" fullname="Chankiyu22.DialogueSystem.Dialogues.TestStartDialogue.Test_DialogueController_StartDialogueWithInitialVariables_VariableAssignmentsStaticController" methodname="Test_DialogueController_StartDialogueWithInitialVariables_VariableAssignmentsStaticController" classname="Chankiyu22.DialogueSystem.Dialogues.TestStartDialogue" runstate="Runnable" seed="1567925178" result="Failed" start-time="2020-08-23 10:32:23Z" end-time="2020-08-23 10:32:23Z" duration="0.029701" asserts="0">
+                <failure>
+                  <message><![CDATA[  Expected: not equal to null
+  But was:  null
+]]></message>
+                  <stack-trace><![CDATA[at Chankiyu22.DialogueSystem.Dialogues.TestStartDialogue.Test_DialogueController_StartDialogueWithInitialVariables_VariableAssignmentsStaticController () [0x0009d] in /github/workspace/Assets/Scripts/Tests/TestStartDialogue.cs:199
+]]></stack-trace>
+                </failure>
+                <output><![CDATA[No next dialogue node found
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

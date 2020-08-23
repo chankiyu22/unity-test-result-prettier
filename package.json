@@ -1,0 +1,48 @@
+{
+  "name": "unity-test-result-pretty-print",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "ncc build index.js --minify",
+    "format": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chankiyu22/unity-test-result-pretty-print.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chankiyu22/unity-test-result-pretty-print/issues"
+  },
+  "homepage": "https://github.com/chankiyu22/unity-test-result-pretty-print#readme",
+  "dependencies": {
+    "@actions/core": "1.2.4",
+    "@actions/github": "4.0.0",
+    "fast-xml-parser": "3.17.4"
+  },
+  "devDependencies": {
+    "@zeit/ncc": "0.22.3",
+    "husky": "4.2.5",
+    "lint-staged": "10.2.11",
+    "prettier": "2.0.5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged && yarn build && git add dist/index.js"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "prettier --write",
+      "git add"
+    ],
+    "*.{json,md,yaml,yml}": [
+      "prettier --write",
+      "git add"
+    ]
+  }
+}
